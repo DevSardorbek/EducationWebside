@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Education | Home</title>
+    <link rel="stylesheet" href="./scss/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="home-page">
+    <header id="navbarhome">
+      <div class="container">
+        <nav class="nav">
+          <div class="nav_logo">
+            <a href="./index.html" class="logo">
+              <img src="./images/logo.svg" alt="Logo" />
+            </a>
+          </div>
+          <div class="nav_input">
+            <input type="text" placeholder="Search bar" />
+            <img src="./images/search.svg" alt="" />
+          </div>
+          <div id="nav-links" class="nav_links">
+            <div class="close_menu">
+              <button onclick="closeNavLinks()">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="36"
+                  height="36"
+                  viewBox="0 0 1024 1024"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M195.2 195.2a64 64 0 0 1 90.496 0L512 421.504L738.304 195.2a64 64 0 0 1 90.496 90.496L602.496 512L828.8 738.304a64 64 0 0 1-90.496 90.496L512 602.496L285.696 828.8a64 64 0 0 1-90.496-90.496L421.504 512L195.2 285.696a64 64 0 0 1 0-90.496"
+                  />
+                </svg>
+              </button>
+            </div>
+            <a href="./pages/courses.html">Cources</a>
+            <a href="./pages/details.html">Detail Cources</a>
+            <a href="./pages/blog.html">Blog</a>
+            <a href="./pages/account.html">Account</a>
+            <button class="btn1">Sign Up</button>
+            <button class="btn2" id="light-dark">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="28"
+                height="28"
+                viewBox="0 0 256 256"
+              >
+                <path
+                  fill="currentColor"
+                  d="M233.54 142.23a8 8 0 0 0-8-2a88.08 88.08 0 0 1-109.8-109.8a8 8 0 0 0-10-10a104.84 104.84 0 0 0-52.91 37A104 104 0 0 0 136 224a103.09 103.09 0 0 0 62.52-20.88a104.84 104.84 0 0 0 37-52.91a8 8 0 0 0-1.98-7.98m-44.64 48.11A88 88 0 0 1 65.66 67.11a89 89 0 0 1 31.4-26A106 106 0 0 0 96 56a104.11 104.11 0 0 0 104 104a106 106 0 0 0 14.92-1.06a89 89 0 0 1-26.02 31.4"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <button class="hamburger" onclick="openNavLinks()">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="36"
+              height="36"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill="currentColor"
+                fill-rule="evenodd"
+                d="M2 3.75A.75.75 0 0 1 2.75 3h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 3.75M2 8a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5A.75.75 0 0 1 2 8m0 4.25a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="hero_sections">
+          <div class="container">
+            <div class="hero_section">
+              <div class="hero_section_info">
+                <h1>Find the Best Courses and Amazing Mentor</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                  aliquam, purus sit amet luctus venenatis, lectus magna
+                  fringilla urna, porttitor rhoncus
+                </p>
+                <div class="hero_input">
+                  <div>
+                    <img src="./images/search.svg" alt="" />
+                    <input
+                      type="text"
+                      placeholder="Type in the course you want to learn"
+                    />
+                  </div>
+                  <button>Search</button>
+                </div>
+              </div>
+              <div class="hero_section_img">
+                <div class="img1">
+                  <img src="./images/Love Icon.png" alt="" />
+                </div>
+                <div class="img2">
+                  <img src="./images/Review.png" alt="" />
+                </div>
+                <div class="img3">
+                  <img src="./images/Verification Icon.png" alt="" />
+                </div>
+                <div class="img4">
+                  <img src="./images/Bell Icon.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="trending_sections">
+          <div class="container">
+            <div class="tranding_section">
+              <div class="tranding_title">
+                <h1>Trending Courses</h1>
+              </div>
+              <div class="trending_link">
+                <button>All</button>
+                <button>Business</button>
+                <button>Art & Design</button>
+                <button>Development</button>
+                <button>Marketing</button>
+              </div>
+              <div class="tranding_cards">
+                <div class="tranding_card">
+                  <div class="tranding_card_top">
+                    <img src="./images/cardimg.png" alt="" />
+                    <button>UI/UX Design</button>
+                  </div>
+                  <h2>Interpersonal skills - work better with others!</h2>
+                  <h3>Tanah Air Team</h3>
+                  <div class="degre">
+                    <img src="./images/star.png" alt="" />
+                    <p>(2078)</p>
+                  </div>
+                  <div class="price">
+                    <del>$640 </del>
+                    <h1>$384</h1>
+                  </div>
+                </div>
+                <div class="tranding_card">
+                  <div class="tranding_card_top">
+                    <img src="./images/cardimg.png" alt="" />
+                    <button>UI/UX Design</button>
+                  </div>
+                  <h2>Interpersonal skills - work better with others!</h2>
+                  <h3>Tanah Air Team</h3>
+                  <div class="degre">
+                    <img src="./images/star.png" alt="" />
+                    <p>(2078)</p>
+                  </div>
+                  <div class="price">
+                    <del>$640 </del>
+                    <h1>$384</h1>
+                  </div>
+                </div>
+                <div class="tranding_card">
+                  <div class="tranding_card_top">
+                    <img src="./images/cardimg.png" alt="" />
+                    <button>UI/UX Design</button>
+                  </div>
+                  <h2>Interpersonal skills - work better with others!</h2>
+                  <h3>Tanah Air Team</h3>
+                  <div class="degre">
+                    <img src="./images/star.png" alt="" />
+                    <p>(2078)</p>
+                  </div>
+                  <div class="price">
+                    <del>$640 </del>
+                    <h1>$384</h1>
+                  </div>
+                </div>
+                <div class="tranding_card">
+                  <div class="tranding_card_top">
+                    <img src="./images/cardimg.png" alt="" />
+                    <button>UI/UX Design</button>
+                  </div>
+                  <h2>Interpersonal skills - work better with others!</h2>
+                  <h3>Tanah Air Team</h3>
+                  <div class="degre">
+                    <img src="./images/star.png" alt="" />
+                    <p>(2078)</p>
+                  </div>
+                  <div class="price">
+                    <del>$640 </del>
+                    <h1>$384</h1>
+                  </div>
+                </div>
+                <div class="tranding_card">
+                  <div class="tranding_card_top">
+                    <img src="./images/cardimg.png" alt="" />
+                    <button>UI/UX Design</button>
+                  </div>
+                  <h2>Interpersonal skills - work better with others!</h2>
+                  <h3>Tanah Air Team</h3>
+                  <div class="degre">
+                    <img src="./images/star.png" alt="" />
+                    <p>(2078)</p>
+                  </div>
+                  <div class="price">
+                    <del>$640 </del>
+                    <h1>$384</h1>
+                  </div>
+                </div>
+                <div class="tranding_card">
+                  <div class="tranding_card_top">
+                    <img src="./images/cardimg.png" alt="" />
+                    <button>UI/UX Design</button>
+                  </div>
+                  <h2>Interpersonal skills - work better with others!</h2>
+                  <h3>Tanah Air Team</h3>
+                  <div class="degre">
+                    <img src="./images/star.png" alt="" />
+                    <p>(2078)</p>
+                  </div>
+                  <div class="price">
+                    <del>$640 </del>
+                    <h1>$384</h1>
+                  </div>
+                </div>
+                <div class="tranding_card">
+                  <div class="tranding_card_top">
+                    <img src="./images/cardimg.png" alt="" />
+                    <button>UI/UX Design</button>
+                  </div>
+                  <h2>Interpersonal skills - work better with others!</h2>
+                  <h3>Tanah Air Team</h3>
+                  <div class="degre">
+                    <img src="./images/star.png" alt="" />
+                    <p>(2078)</p>
+                  </div>
+                  <div class="price">
+                    <del>$640 </del>
+                    <h1>$384</h1>
+                  </div>
+                </div>
+                <div class="tranding_card">
+                  <div class="tranding_card_top">
+                    <img src="./images/cardimg.png" alt="" />
+                    <button>UI/UX Design</button>
+                  </div>
+                  <h2>Interpersonal skills - work better with others!</h2>
+                  <h3>Tanah Air Team</h3>
+                  <div class="degre">
+                    <img src="./images/star.png" alt="" />
+                    <p>(2078)</p>
+                  </div>
+                  <div class="price">
+                    <del>$640 </del>
+                    <h1>$384</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="more">
+                <button class="btn4">More Courses</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="categories_sections">
+          <div class="container">
+            <div class="categories_title">
+              <h1>Top Categories</h1>
+            </div>
+            <div class="categories_section_cards">
+              <div class="categories_card">
+                <h2>Art & Design</h2>
+              </div>
+              <div class="categories_card">
+                <h2>Business</h2>
+              </div>
+              <div class="categories_card">
+                <h2>Copy Writing</h2>
+              </div>
+              <div class="categories_card">
+                <h2>Marketing</h2>
+              </div>
+              <div class="categories_card">
+                <h2>Programming</h2>
+              </div>
+              <div class="categories_card">
+                <h2>Photography</h2>
+              </div>
+              <div class="categories_card">
+                <h2>Videography</h2>
+              </div>
+              <div class="categories_card">
+                <h2>Personal Development</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="active_sections">
+          <div class="container">
+            <div class="active_section_cards">
+              <div class="active_section_card">
+                <img
+                  src="./images/activeimg1/activeimg1/video_library.png"
+                  alt=""
+                />
+                <h2>10.000+</h2>
+                <p>Courses</p>
+              </div>
+              <div class="active_section_card">
+                <img src="./images/activeimg2.png" alt="" />
+                <h2>50.000+</h2>
+                <p>Active Students</p>
+              </div>
+              <div class="active_section_card">
+                <img src="./images/activeimg3.png" alt="" />
+                <h2>1000+</h2>
+                <p>Active Mentor</p>
+              </div>
+              <div class="active_section_card">
+                <img src="./images/activimg4/Content/activeimg4.png" alt="" />
+                <h2>180</h2>
+                <p>Courses</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="become_sections">
+          <div class="container">
+            <div class="become_section">
+              <div class="become_section_img"></div>
+              <div class="become_section_info">
+                <h1>Become an Mentor</h1>
+                <p class="page">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Feugiat eu in orci, nunc amet libero. Nam scelerisque
+                  vestibulum bibendum a turpis. Ante feugiat lectus massa, odio
+                  amet. Auctor sit mattis non id proin elit placerat. Lectus
+                  morbi amet et aliquam magna mauris.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Feugiat eu in orci, nunc amet libero. Nam scelerisque
+                  vestibulum bibendum a turpis. Ante feugiat lectus massa, odio
+                  amet. Auctor sit mattis non id proin elit placerat. Lectus
+                  morbi amet et aliquam magna mauris.
+                </p>
+                <button>Start Teaching</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="kace_sections">
+          <div class="container">
+            <div class="kace_section">
+              <div class="owl-carousel owl-theme">
+                <div class="flex">
+                  <div class="kace_section_img">
+                    <img src="./images/Accent.png" alt="" />
+                  </div>
+                  <div class="kace_section_info">
+                    <h2>
+                      After studying here I gained new knowledge and insights.
+                      The mentor was very friendly and guided me to get the
+                      knowledge I wanted. Thank you!
+                    </h2>
+                    <h3>KecekArif</h3>
+                    <p>Yang punya Surabaya nanti kapan - kapan tapi</p>
+                  </div>
+                </div>
+                <div class="flex">
+                  <div class="kace_section_img">
+                    <img src="./images/Accent.png" alt="" />
+                  </div>
+                  <div class="kace_section_info">
+                    <h2>
+                      After studying here I gained new knowledge and insights.
+                      The mentor was very friendly and guided me to get the
+                      knowledge I wanted. Thank you!
+                    </h2>
+                    <h3>KecekArif</h3>
+                    <p>Yang punya Surabaya nanti kapan - kapan tapi</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="absalyut1" id="to_left">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="48"
+              height="48"
+              viewBox="0 0 48 48"
+            >
+              <path
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="4"
+                d="m19 12l12 12l-12 12"
+              />
+            </svg>
+          </button>
+          <button class="absalyut2" id="to_right">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="48"
+              height="48"
+              viewBox="0 0 48 48"
+            >
+              <path
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="4"
+                d="M31 36L19 24l12-12"
+              />
+            </svg>
+          </button>
+        </div>
+      </section>
+      <section>
+        <div class="trusted_sections">
+          <div class="container">
+            <div class="trusted_title">
+              <h1>Trusted by Company</h1>
+            </div>
+            <div class="trusted_brands">
+              <div class="trusted_card">
+                <img src="./images/studio/Dummy Logo/05.png" alt="" />
+              </div>
+              <div class="trusted_card">
+                <img src="./images/logo_tr/Dummy Logo/01.png" alt="" />
+              </div>
+              <div class="trusted_card">
+                <img src="./images/logo_tr2/Dummy Logo/02.png" alt="" />
+              </div>
+              <div class="trusted_card">
+                <img src="./images/studio/Dummy Logo/05.png" alt="" />
+              </div>
+              <div class="trusted_card">
+                <img src="./images/logo_tr2/Dummy Logo/02.png" alt="" />
+              </div>
+              <div class="trusted_card">
+                <img src="./images/logo_tr3/Dummy Logo/01.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="latest_sections">
+          <div class="container">
+            <div class="latest_title">
+              <h1>The Latest Blog</h1>
+            </div>
+            <div class="latest_section_cards">
+              <div class="latest_section_card">
+                <img src="./images/latest_img.png" alt="" />
+                <div class="mei">
+                  <span>3, Mei 2021</span>
+                  <span>3 min read</span>
+                </div>
+                <h1>10 graphic design trends to get you inspired in 2021</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed
+                  do eiusmod.
+                </p>
+                <button>Read More</button>
+              </div>
+              <div class="latest_section_card">
+                <img src="./images/latest_img.png" alt="" />
+                <div class="mei">
+                  <span>3, Mei 2021</span>
+                  <span>3 min read</span>
+                </div>
+                <h1>10 graphic design trends to get you inspired in 2021</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed
+                  do eiusmod.
+                </p>
+                <button>Read More</button>
+              </div>
+              <div class="latest_section_card">
+                <img src="./images/latest_img.png" alt="" />
+                <div class="mei">
+                  <span>3, Mei 2021</span>
+                  <span>3 min read</span>
+                </div>
+                <h1>10 graphic design trends to get you inspired in 2021</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed
+                  do eiusmod.
+                </p>
+                <button>Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer_sections">
+        <div class="container">
+          <div class="footer_section">
+            <div class="footer_one">
+              <img src="./images/footer_logo.png" alt="" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
+                tristique placerat eleifend aliquam pellentesque facilisis
+                ultrices. Imperdiet mus urna egestas at tellus.
+              </p>
+            </div>
+            <div class="footer_two">
+              <a href="#" class="bold">About</a>
+              <a href="#">About us</a>
+              <a href="#">Courses</a>
+              <a href="#">Mentor</a>
+              <a href="#">Contact Us</a>
+            </div>
+            <div class="footer_three">
+              <a href="#" class="bold">Support</a>
+              <a href="#">Careers</a>
+              <a href="#">Help & Support</a>
+              <a href="#">Blog</a>
+            </div>
+            <div class="footer_four">
+              <a href="#" class="bold">Company</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms of Service</a>
+              <a href="#">Code of Conduct</a>
+            </div>
+          </div>
+          <div class="footer_policy">
+            <div class="policy_one">
+              <p>Privacy Policy</p>
+              <p>Terms and Condition</p>
+            </div>
+            <div class="policy_two">
+              <p>@2020 TanahAir Studio. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        var owl = $(".owl-carousel");
+
+        owl.owlCarousel({
+          items: 1,
+          loop: true,
+          margin: 50,
+          // autoplay: true,
+          autoplayTimeout: 3000,
+          autoplayHoverPause: true,
+          fluidSpeed: true,
+          smartSpeed: 2000,
+          dots: false,
+        });
+
+        $("#to_left").click(() => {
+          owl.trigger("next.owl.carousel");
+        });
+
+        $("#to_right").click(() => {
+          owl.trigger("prev.owl.carousel");
+        });
+      });
+
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (window.scrollY > 180) {
+          document.getElementById("navbarhome").style.padding = "20px 10px";
+          document.getElementById("navbarhome").style.background = "white";
+        } else {
+          document.getElementById("navbarhome").style.padding = "36px 10px";
+        }
+      }
+    </script>
+  </body>
+</html>
